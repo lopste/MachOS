@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: black;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+
+  cursor: url("/img/cur/mouse.png") 2 2, default;
+}
+
+body.pointer {
+  cursor: url("/img/cur/pointer.png") 12 2, pointer;
+}
+
+#render {
+  image-rendering: pixelated;
+}
