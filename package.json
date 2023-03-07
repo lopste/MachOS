@@ -1,0 +1,21 @@
+{
+  "name": "machos",
+  "version": "0.1.0",
+  "description": "MachOS, the mock OS!",
+  "main": "",
+  "scripts": {
+    "start": "serve",
+    "build": "webpack"
+  },
+  "author": "lopste",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "serve": "^14.2.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
