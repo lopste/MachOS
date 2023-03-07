@@ -4,13 +4,14 @@
   "description": "MachOS, the mock OS!",
   "main": "",
   "scripts": {
-    "start": "serve",
+    "start": "serve ./dist",
     "build": "webpack"
   },
   "author": "lopste",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
     "serve": "^14.2.0",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.4.2",
